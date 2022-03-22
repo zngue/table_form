@@ -1,0 +1,13 @@
+AppMode: debug               # 开发模式, debug, release, test
+AppReadTimeout: 120
+AppWriteTimeout : 120
+
+AppPort: 6062                  # HTTP绑定端口
+AppTitle: 统一表单
+AppHost: 127.0.0.1
+AppName: formCommon
+url: http://127.0.0.1:7001   # pingServer函数请求的API服务器的ip:port
+ErrReport : false
+SystemId : 1
+max_ping_count: 100
+img_url: "http://wggl.cqyz.gov.cn/wechat/images/"
